@@ -18,7 +18,7 @@ async def on_ready():
 
 
 # Load the extensions or cogs
-cogs = ["cogs.ping"]
+cogs = ["cogs.ping","cogs.joke"]
 for i in cogs:
     try:
         client.load_extension(i)
